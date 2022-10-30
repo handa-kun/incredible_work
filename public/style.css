@@ -1,0 +1,63 @@
+/* 
+    General styles
+*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+/* 
+    Styles
+ */
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    filter: blur(3px) grayscale(30%);
+    height: 400px;
+}
+
+ .main-offer {
+    justify-content: center;
+ }
+ .header-section {
+   /* background: url("img/bg.png") 100% / cover gray; */
+ }
+
+.header-logo-img {
+    width: 36px;
+    height: 36px;
+}
+
+.offer-img {
+    width: auto;
+    height: 200px;
+}
+
+.offer-title {
+    color: white;
+}
+
+.header-navigation{
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.header-button-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    color: white;
+}
